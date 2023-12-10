@@ -62,8 +62,6 @@ public class MainActivity extends AppCompatActivity {
         sf2.setStiffness(150f);
         sa2.setSpring(sf2);
 
-        View root = findViewById(R.id.root);
-
         WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
 
         int screenWidth, screenHeight;
